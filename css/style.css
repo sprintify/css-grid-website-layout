@@ -46,7 +46,6 @@ body {
     font-size: var(--font-size-1);
     line-height: 1.5;
     text-align: center;
-    -webkit-transform: translate3d(0,0,0)
 }
 
 img {
@@ -137,6 +136,7 @@ header {
     position: fixed;
     top: 0;
     box-shadow: 1px 1px 3px #9498a0;
+    opacity: .95;
 }
 
 .main-nav {
@@ -214,6 +214,7 @@ nav ul {
     min-height: 550px;
     color: var(--cyan-light);
     text-align: center;
+    overflow: hidden;
 }
 
 #promo .top-image {
@@ -247,6 +248,7 @@ nav ul {
     background: var(--cyan-light);
     color: #333;
     padding-bottom: 2em;
+    overflow: hidden;
 }
 
 .intro-large {
@@ -270,6 +272,7 @@ nav ul {
 
 #section-2 {
     padding: 2em 1em 1em;
+    overflow: hidden;
 }
 
 #section-2 ul {
@@ -303,6 +306,7 @@ nav ul {
     background: var(--cyan-light);
     color: #333;
     padding-bottom: 2em;
+    overflow: hidden;
 }
 
 
@@ -313,6 +317,7 @@ nav ul {
     padding-top: 2em;
     color: #fff;
     background: var(--cyan-light);
+    overflow: hidden;
 }
 
 #section-4 .box {
