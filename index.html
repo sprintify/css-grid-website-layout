@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adobo Solutions</title>
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    
     <link rel="shortcut icon" type="image/png" href="img/adobo.png">
     <link rel="apple-touch-icon-precomposed" href="img/adobo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -127,7 +131,7 @@
 
     <!-- Footer -->
     <footer id="primary-footer" class="grid">
-        <div><h4>Sprintify.site</h4></div>
+        <div><h4>Adobo Solutions</h4></div>
         <div>Developer of website and apps where functionality and user interface (UI) are priority! We make your site superfast and optimized for seo. Get started click<a href="https://sprintify.site" target="_blank"> Sprintify.site</a></div>
     </footer>
     
@@ -156,6 +160,25 @@
 				});
 			});
 		</script>
+		
+        <script>
+            document.body.addEventListener('touchmove', function(event) {
+                console.log(event.source);
+                //if (event.source == document.body)
+                event.preventDefault();
+            }, false);
+
+            window.onresize = function() {
+                $(document.body).width(window.innerWidth).height(window.innerHeight);
+            }
+
+            $(function() {
+                window.onresize();
+            });
+        </script>
+		
+		
+		
 
 
 
