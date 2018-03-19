@@ -390,7 +390,7 @@ iframe {
 ================================ */
 
 .menu-hamburger {
-	position: absolute;
+	position: fixed;
 	top: 24px;
 	right: 28px;
 	
