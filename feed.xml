@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>Adobo Solutions  | Faster loadtimes for websites and better seo</title>
+	<description>Feed created by FiveFilters.org</description>
+	<link>https://adobosolutions.com/</link>
+	<item>
+		<title>Seo</title>
+		<link>https://adobosolutions.com/index.html</link>
+		<description></description>
+	</item>
+	<item>
+		<title>Pageload</title>
+		<link>https://adobosolutions.com/pageload.html</link>
+		<description></description>
+	</item>
+	<item>
+		<title>Mobile first</title>
+		<link>https://adobosolutions.com/mobilefirst.html</link>
+		<description></description>
+	</item>
+	<item>
+		<title>News</title>
+		<link>https://adobosolutions.com/news.html</link>
+		<description></description>
+	</item>
+	<item>
+		<title>Blog</title>
+		<link>https://adobosolutions.com/blog.html</link>
+		<description></description>
+	</item>
+</channel>
+</rss>
