@@ -355,7 +355,7 @@ template {
 
 
 /* Variables
-====================================================
+==================================================== */
 :root {
     --dark-blue-background: #293241;
 	--dark-blue: #354357;
@@ -369,7 +369,7 @@ template {
     --red-light: #f8c4b7;
     --cyan-light: #EBECED;
 
-    /* scale for 1.2 */   /*
+    /* scale for 1.2 */
     --font-size-1: 1rem;
     --font-size-2: 1.2rem;
     --font-size-3: 1.44rem;
@@ -377,10 +377,11 @@ template {
     --font-size-5: 2.074rem;
     --font-size-6: 2.488rem;
 
-    /* fontweight */    /*
+    /* fontweight */
     --font-weight-light: 300;
     --font-weight-bold: 700;
-}  */
+}
+
 
 
 /* Reset */
@@ -478,7 +479,6 @@ p,
 
 .intro-p {
     font-size: 18px;
-
 }
 
 p {
