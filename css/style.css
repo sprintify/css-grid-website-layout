@@ -395,7 +395,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
-/*
+
 @font-face {
     font-family:'exo';
     font-style: normal;
@@ -404,7 +404,7 @@ html {
 	url('../font/exo-light-webfont.woff')format('woff'),
 	url('../font/exo-light-webfont.ttf')format('truetype'),
 	url('../font/exo-light-webfont.eot')format('embedded-opentype');
-    unicode-range:U+000-5FF;
+    unicode-range: U+00-FF; /* Define the available characters */
 }
 
 @font-face {
@@ -415,10 +415,10 @@ html {
 	url('../font/exo-bold-webfont.woff')format('woff'),
 	url('../font/exo-bold-webfont.ttf')format('truetype'),
 	url('../font/exo-bold-webfont.eot')format('embedded-opentype');
-    unicode-range:U+000-5FF;
+    unicode-range: U+00-FF; /* Define the available characters */
 }
 
-*/
+
 
 /* Basics
 ============================== */
@@ -633,7 +633,7 @@ nav ul {
     top: 70px;
 	left: 0;
 	right: 0;
-    background: url("img/pexels-photo-674884.jpg");
+    background: url("../img/pexels-photo-674884.jpg");
     background-position: center bottom;
     background-size: cover;
     background-attachment: fixed;
