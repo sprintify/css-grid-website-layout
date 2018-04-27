@@ -167,12 +167,12 @@
 	    </div>
 
 		<script src="https://res.cloudinary.com/dybgkt9iw/raw/upload/v1524434698/image-sprintify/jQuery-v3.3.1.js"></script>
-	    <script src="https://res.cloudinary.com/dybgkt9iw/raw/upload/v1524434561/image-sprintify/lazysizes.js"></script>
+	    <script src="https://res.cloudinary.com/dybgkt9iw/raw/upload/v1524434561/image-sprintify/lazysizes.js" async></script>
 
 
 			<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
 			<!--<script src="js/jquery.js"></script> -->
-
+			<!--
 			<script>
 				$( document ).ready(function() {
 					var hamburger = $('#hamburger-icon');
@@ -183,7 +183,10 @@
 						return false;
 					});
 				});
-			</script>
+			</script>    -->
+
+			<script>$(document).ready(function(){var hamburger=$('#hamburger-icon');var main=$('.main-nav')
+hamburger.click(function(){main.toggleClass('main-nav--open',1000);hamburger.toggleClass('active');return false;});});</script>
 
 
 
