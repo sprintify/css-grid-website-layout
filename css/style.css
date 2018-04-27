@@ -355,7 +355,7 @@ template {
 
 
 /* Variables
-==================================================== */
+====================================================
 :root {
     --dark-blue-background: #293241;
 	--dark-blue: #354357;
@@ -369,7 +369,7 @@ template {
     --red-light: #f8c4b7;
     --cyan-light: #EBECED;
 
-    /* scale for 1.2 */
+    /* scale for 1.2 */   /*
     --font-size-1: 1rem;
     --font-size-2: 1.2rem;
     --font-size-3: 1.44rem;
@@ -377,11 +377,10 @@ template {
     --font-size-5: 2.074rem;
     --font-size-6: 2.488rem;
 
-    /* fontweight */
+    /* fontweight */    /*
     --font-weight-light: 300;
     --font-weight-bold: 700;
-}
-
+}  */
 
 
 /* Reset */
@@ -479,6 +478,7 @@ p,
 
 .intro-p {
     font-size: 18px;
+
 }
 
 p {
@@ -488,7 +488,6 @@ p {
 .intro-btn {
     font-size: 20px;
     text-transform: uppercase;
-    padding-top: -2em;
 }
 
 .btn {
@@ -496,7 +495,7 @@ p {
     background: var(--red);
     color: var(--cyan-light);
     text-decoration: none;
-    padding: .4em 1em .2em;
+    padding: .2em 1em .2em;
     border: 1px solid var(--cyan-light);
     margin: 0.5em 0;
     transition: all 0.3s ease-in-out;
