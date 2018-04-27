@@ -395,7 +395,7 @@ html {
 *::after {
     box-sizing: inherit;
 }
-
+/*
 @font-face {
     font-family:'exo';
     font-style: normal;
@@ -418,7 +418,7 @@ html {
     unicode-range:U+000-5FF;
 }
 
-
+*/
 
 /* Basics
 ============================== */
