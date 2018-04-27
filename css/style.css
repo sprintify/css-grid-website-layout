@@ -396,7 +396,7 @@ html {
     box-sizing: inherit;
 }
 
-@font-face {
+/@font-face {
     font-family:'exo';
     font-style: normal;
     font-weight: 300;
@@ -407,7 +407,7 @@ html {
     unicode-range:U+000-5FF;
 }
 
-@font-face {
+/@font-face {
     font-family:'exo';
     font-style: normal;
     font-weight: 700;
